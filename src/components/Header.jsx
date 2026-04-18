@@ -1,14 +1,26 @@
+import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import styles from '../styles/Header.module.css';
 
 export default function Header() {
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsScrolled(window.scrollY > 24);
+    };
+
+    handleScroll();
+    window.addEventListener('scroll', handleScroll, { passive: true });
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
   return (
-    <header className={styles.header}>
+    <header className={`${styles.header} ${isScrolled ? styles.scrolled : ''}`}>
       <nav className={`${styles.nav} ${styles.container}`}>
-        <Link to="/" className={styles.logo}>
-          Abby Unfiltered
-        </Link>
-        
         <ul className={styles.menuitems}>
           <li>
             <Link to="/" className={styles.navLink}>Home</Link>

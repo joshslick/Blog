@@ -12,11 +12,11 @@
 .pageHeader {
   text-align: center;
   margin-bottom: 3rem;
-  background: rgba(255, 247, 252, 0.82);
-  border: 1px solid rgba(233, 30, 140, 0.18);
+  background: linear-gradient(160deg, rgba(239, 206, 217, 0.9), rgba(229, 190, 204, 0.88));
+  border: 1px solid rgba(171, 110, 132, 0.34);
   border-radius: 18px;
   padding: 1.4rem 1.2rem;
-  box-shadow: 0 10px 24px rgba(145, 45, 107, 0.1);
+  box-shadow: 0 14px 30px rgba(123, 67, 90, 0.2);
 }
 
 .pageHeader h1 {
@@ -63,11 +63,11 @@
 }
 
 .teamMember {
-  background: rgba(255, 247, 252, 0.86);
+  background: linear-gradient(160deg, rgba(239, 206, 217, 0.9), rgba(229, 190, 204, 0.88));
   padding: 1.5rem;
   border-radius: 14px;
-  border: 1px solid rgba(233, 30, 140, 0.2);
-  box-shadow: 0 10px 24px rgba(145, 45, 107, 0.1);
+  border: 1px solid rgba(171, 110, 132, 0.34);
+  box-shadow: 0 14px 30px rgba(123, 67, 90, 0.2);
   text-align: center;
 }
 
@@ -93,12 +93,13 @@
 }
 
 .highlight {
-  background: rgba(255, 247, 252, 0.86);
+  background: linear-gradient(160deg, rgba(239, 206, 217, 0.9), rgba(229, 190, 204, 0.88));
   padding: 2rem;
-  border-left: 4px solid var(--accent-color);
+  border: 1px solid rgba(171, 110, 132, 0.34);
+  border-left: 4px solid rgba(171, 110, 132, 0.8);
   border-radius: 10px;
   margin: 2rem 0;
-  box-shadow: 0 8px 20px rgba(145, 45, 107, 0.08);
+  box-shadow: 0 14px 30px rgba(123, 67, 90, 0.2);
 }
 
 .highlight h3 {

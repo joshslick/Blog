@@ -12,11 +12,11 @@
 .pageHeader {
   text-align: center;
   margin-bottom: 3rem;
-  background: rgba(255, 247, 252, 0.8);
-  border: 1px solid rgba(233, 30, 140, 0.18);
+  background: linear-gradient(160deg, rgba(239, 206, 217, 0.9), rgba(229, 190, 204, 0.88));
+  border: 1px solid rgba(171, 110, 132, 0.34);
   border-radius: 18px;
   padding: 1.6rem 1.3rem;
-  box-shadow: 0 10px 24px rgba(145, 45, 107, 0.12);
+  box-shadow: 0 14px 30px rgba(123, 67, 90, 0.2);
 }
 
 .pageHeader h1 {
@@ -48,7 +48,7 @@
 
 .filterButton {
   padding: 0.75rem 1.5rem;
-  background: linear-gradient(135deg, #e91e8c, #f24fa1);
+  background: #e477b3;
   color: white;
   border: none;
   border-radius: 999px;
@@ -75,11 +75,11 @@
 }
 
 .filters {
-  background: rgba(255, 247, 252, 0.86);
+  background: linear-gradient(160deg, rgba(239, 206, 217, 0.9), rgba(229, 190, 204, 0.88));
   padding: 1.5rem;
   border-radius: 14px;
-  border: 1px solid rgba(233, 30, 140, 0.2);
-  box-shadow: 0 10px 24px rgba(145, 45, 107, 0.1);
+  border: 1px solid rgba(171, 110, 132, 0.34);
+  box-shadow: 0 14px 30px rgba(123, 67, 90, 0.2);
   height: fit-content;
   position: sticky;
   top: 100px;
@@ -129,9 +129,10 @@
   text-align: center;
   padding: 3rem 1rem;
   color: var(--text-secondary);
-  background: rgba(255, 247, 252, 0.82);
-  border: 1px solid rgba(233, 30, 140, 0.18);
+  background: linear-gradient(160deg, rgba(239, 206, 217, 0.9), rgba(229, 190, 204, 0.88));
+  border: 1px solid rgba(171, 110, 132, 0.34);
   border-radius: 14px;
+  box-shadow: 0 14px 30px rgba(123, 67, 90, 0.2);
 }
 
 .noResults p {

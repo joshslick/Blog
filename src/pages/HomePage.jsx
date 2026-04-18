@@ -16,7 +16,6 @@ export default function HomePage() {
           <Link to="/blog" className={styles.ctaButton}>
             Read Our Stories
           </Link>
-          <div className={styles.bloomRow} aria-hidden="true">🌷 ✿ 🌸 ❀ 🌺 ✿ 🌷</div>
         </section>
 
         {/* Features Section */}
